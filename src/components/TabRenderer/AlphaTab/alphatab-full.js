@@ -625,10 +625,6 @@ class PlayerControlsGroup extends React.Component {
             </a>
             <ZoomLevelSelector api={this.props.api} />
             <LayoutSelector api={this.props.api} />
-
-            <div className="at-logo">
-              powered by <img src="/img/alphatab.png" />
-            </div>
           </div>
         </div>
       </>
